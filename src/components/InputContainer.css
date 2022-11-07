@@ -1,0 +1,21 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.todo-input {
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  outline: none;
+  margin: 0 20px;
+}
+
+.remove-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

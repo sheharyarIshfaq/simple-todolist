@@ -1,0 +1,37 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #6c4ab6;
+  margin: 10px 20px;
+  color: white;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+.todoItem:hover {
+  background-color: #5a3a9b;
+}
+.todoItem p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.edit {
+  background-color: #846cb8 !important;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.todoItem button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
